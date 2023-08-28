@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactive, computed, watch } from "vue";
+import { computed } from "vue";
 import { ref } from 'vue'; //Import reference for displaying slider count
 import { Form, Field, useForm, FieldArray, useFieldArray } from 'vee-validate'; //Import vee-validate for form validation
 import * as yup from 'yup'; //Import yup for schema validation
