@@ -6308,9 +6308,6 @@ const Store = defineStore("store", {
       ]
     }]
   }),
-  getters: {
-    data: (state) => state.profile
-  },
   actions: {
     save(data) {
       if (data.shifts) {
@@ -6320,10 +6317,6 @@ const Store = defineStore("store", {
       } else {
         toast.error("Shift is required!");
       }
-    },
-    update(index2) {
-      this.record = this.records[index2];
-      toast.success("Shift updated successfully!");
     },
     delete() {
       this.records.splice(this.active_index, 1);
