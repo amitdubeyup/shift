@@ -5,7 +5,7 @@ import { Form, Field, useForm, FieldArray, useFieldArray } from 'vee-validate'; 
 import * as yup from 'yup'; //Import yup for schema validation
 import VueDatePicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
-import { Store } from './stores/user';
+import { Store } from './stores';
 const store = Store(); //Import Store
 
 // Update Slider Counter Start
